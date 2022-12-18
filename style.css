@@ -373,7 +373,7 @@ header .container > a {
   main > p {
     width: 90%;
     margin-top: 40px;
-  }
+  } 
   .section2,
   .section3 {
     height: fit-content;
@@ -396,7 +396,8 @@ header .container > a {
   }
 
   .section3 .left{
-    height: 35vh;
+    height: 40vh;
+    order: 1; 
   }
   .section3 p {
     width: 90%;
