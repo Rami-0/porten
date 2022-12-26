@@ -9,6 +9,9 @@ body {
   /* height: 100vh; */
   font-family: "PT Sans", sans-serif;
 }
+body::-webkit-scrollbar{
+  width: 0px;
+}
 .main {
   height: 100vh;
 }
