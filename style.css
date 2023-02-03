@@ -45,6 +45,60 @@ header .container div {
   justify-content: space-between;
   align-items: center;
 }
+
+
+.modal{
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+}
+.content{
+  width: 70%;
+  max-width: 400px;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.content a{
+  margin-top: 30px;
+  color: white;
+  text-decoration: none;
+}
+#close_modal{
+  position: absolute;
+  top: 3%;
+  left: 75%;
+  width: 30px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 3px;
+}
+@media (max-width: 567px) {
+  header > a{
+    display: block;
+  }
+  header{
+    justify-content: space-between;
+    padding: 0 40px;
+
+  }
+  header div{
+    display: none;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .modal{
+    display: none;
+  }
+
+}
 /* ----------------------------------- */
 main {
   background-image: url(./images/Rectangle\ 3.jpg);
